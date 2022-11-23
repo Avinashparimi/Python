@@ -1,0 +1,8 @@
+P=int(input('Enter principle amount:'))
+T=int(input('Time period:'))
+R=int(input('Rate of intrest:'))
+SI=(P*T*R)/100
+print('The S.I is:',SI)
+totalmonths=int(input('total number of months:'))
+EMI=(P+SI)/totalmonths
+print('The EMI amount is:',EMI)
