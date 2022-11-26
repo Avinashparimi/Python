@@ -1,0 +1,5 @@
+a=int(input('a='))
+b=int(input('b='))
+print('The bitwise and operation c=',a&b)
+print('The bitwise or operation d=',a|b)
+print('The bitwise exclusive operation e=',a^b)
