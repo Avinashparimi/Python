@@ -1,0 +1,6 @@
+pin=int(input('pin='))
+a=int(input('a='))
+if pin is a:
+     print('continue the transactions')
+else:
+    print('incorrect pin... TRY AGAIN!!')
