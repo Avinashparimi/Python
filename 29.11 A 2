@@ -1,0 +1,22 @@
+Empno=input('Empno:')
+Empname=input('Empname:')
+Empdesig=input('Empdesig:')
+BSal=int(input('BSal:'))
+DAll=int(input('DAll:'))
+TAll=int(input('TAll:'))
+HRAll=int(input('HRAll:'))
+NSal=(BSal+DAll+TAll+HRAll)
+print('NETSALARY is:',NSal)
+
+if NSal>100000 :
+     TAX=(NSal*10)/100   
+elif NSal>50000:
+     TAX=(NSal*7)/100  
+elif NSal>40000:
+     TAX=(NSal*4)/100   
+elif NSal>20000:
+     TAX=(NSal*2)/100   
+else :
+     print('NO TAX to be paid:')
+     
+print('THE TAX to be paid is:',TAX)
