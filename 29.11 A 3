@@ -1,0 +1,16 @@
+SNO=int(input('SNO:'))
+SNAME=input('SNAME:')
+GROUP=input('GROUP:')
+s1=int(input('s1:'))
+s2=int(input('s2:'))
+s3=int(input('s3:'))
+print('SNO is:',SNO)
+print('SNAME is:',SNAME)
+print('GROUP IS:',GROUP)
+if s1>35:
+    if s2>35:
+         if s3>35:
+              print('THE STUDENT HAD PASSED THE EXAM...')
+
+else:
+ print('STUDENT FAILED THE EXAM')
