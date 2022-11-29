@@ -1,0 +1,9 @@
+amount=int(input('amount='))
+balance=int(input('balance='))
+if balance<amount:
+    print('NO ENOUGH AMOUNT.... TRANSACTION IS NOT POSSIBLE..!!!')
+    print('PLEASE RE-ENTER THE TRANSACTION DETAILS')
+else:
+    print('TRANSACTION BEING PROCESSED.......')
+    print('TRANSACTION SUCCESSFUL...!!')
+    print('balance amount is:',balance-amount)
