@@ -17,6 +17,6 @@ elif NSal>40000:
 elif NSal>20000:
      TAX=(NSal*2)/100   
 else :
-     print('NO TAX to be paid:')
+     TAX=0
      
 print('THE TAX to be paid is:',TAX)
