@@ -1,0 +1,9 @@
+l=[]
+n=int(input())
+for i in range(n):
+    x=int(input('ENTER NUMBER:'))
+    l.append(x)
+print(l)
+print(l[0])
+print(l[2])
+print(l[4])
