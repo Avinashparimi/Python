@@ -1,0 +1,7 @@
+n=int(input())
+ap=list(map(int,input().split()))
+for i in range(n):
+    x=input('enter name of state:')
+    ap.append(x)
+ap.sort()
+print(ap)
